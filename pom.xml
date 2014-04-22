@@ -113,7 +113,7 @@
 							<goals><goal>process</goal></goals>
 							<configuration>
 								<resourceBundles>
-									<resourceBundle>com.swingler.common:version-properties:0.0.1-SNAPSHOT</resourceBundle>
+									<resourceBundle>com.swingler.common:version-properties:${project.version}</resourceBundle>
 								</resourceBundles>
 							</configuration>
 						</execution>
