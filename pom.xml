@@ -27,6 +27,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
+		<version-properties.version>${project.version}</version-properties.version>
 	</properties>
 	<modules>
 		<module>version-properties</module>
@@ -113,7 +114,7 @@
 							<goals><goal>process</goal></goals>
 							<configuration>
 								<resourceBundles>
-									<resourceBundle>com.swingler.common:version-properties:${project.version}</resourceBundle>
+									<resourceBundle>com.swingler.common:version-properties:${version-properties.version}</resourceBundle>
 								</resourceBundles>
 							</configuration>
 						</execution>
