@@ -4,7 +4,7 @@
 	<groupId>com.swingler.common</groupId>
 	<artifactId>root-pom</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<distributionManagement>
 		<repository>
 			<id>libs-release-local</id>
@@ -19,7 +19,7 @@
 		<connection>scm:${env.SCM_TYPE}:${env.SCM_URL}</connection>
 		<developerConnection>scm:${env.SCM_TYPE}:${env.SCM_URL}</developerConnection>
 		<url>${env.SCM_URL}</url>
-		<tag>HEAD</tag>
+		<tag>root-pom-0.0.1</tag>
 	</scm>
 	<!-- COMMON PROPERTIES FOR JAVA PROJECTS -->
 	<properties>
